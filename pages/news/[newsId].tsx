@@ -6,5 +6,5 @@ export default function DetailPage() {
 
   console.log({ newsId });
 
-  return <h1>News details</h1>;
+  return <h1>{newsId}</h1>;
 }
